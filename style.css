@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lexend Mega', sans-serif;
+}
+
+p {
+    font-family: 'Public Sans', sans-serif;
+}
+
+.hero-header-container {
+    position: relative;
+    height: 100vh;
+    background: linear-gradient(-225deg, #ff8585 0%, #fea572 16%, #FFFF85 32%, #99FF99 48%, #99FFFF 64%, #ADADFF 80%, #FF99FF 100%);
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.hero-header-container h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 800px;
+}
+
+.introduction-section {
+    display: flex;
+    flex-direction: column;
+    background: #FFB2EF;
+    text-align: center;
+    align-items: center;
+    line-height: 1.5rem;
+    font-size: 1.1rem;
+}
+
+.introduction-section img {
+    width: 55%;
+}
+
+.introduction-container {
+    background: #A7DBD8;
+    max-width: 800px;
+    border-radius: 20px;
+    border: 3px solid #000;
+    box-shadow: 4px 5px #000;
+    margin-top: 5rem;
+    padding: 2rem;
+}
+
+.introduction-container h2 {
+    margin-bottom: 1.3rem;
+}
+
+.introduction-container p {
+    margin-bottom: 1rem;
+}
+
+.list-container {
+    background: #C4A1FF;
+    text-align: center;
+    padding: 3rem;
+}
+
+.list-container h2 {
+    padding-bottom: 2rem;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr));
+    gap: 1rem;
+    place-content: center;
+    place-items: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background: #BAFCA2;
+    width: 270px;
+    height: 350px;
+    border-radius: 10px;
+    margin: 10px;
+    border: 3px solid #000;
+    box-shadow: 4px 5px #000;
+    transform: translate(-4.5px, -4.5px);
+    transition: all 0.3s;
+}
+
+.card:hover {
+    box-shadow: 1px 1px 0 #000;
+    transform: initial;
+}
+
+.card * {
+    margin: .6rem;
+}
+
+.card img {
+    max-width: 200px;
+}
+
+.card p {
+    line-height: 1.25rem;
+}
+
+
+
+
