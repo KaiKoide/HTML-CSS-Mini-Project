@@ -28,7 +28,6 @@ p {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    /* width: 800px; */
     z-index: 10;
 }
 
@@ -82,7 +81,7 @@ p {
 }
 
 #img-01 {
-    width: 230px;
+    width: 200px;
     top: -80px;
     left: -100px;
     transform: rotate(-20deg);
@@ -156,5 +155,99 @@ p {
 }
 
 
+@media screen and (max-width: 1039px) {
+    .star-1 {
+        width: 250px;
+    }
 
+    .star-2 {
+        width: 120px;
+        right: 50px;
+    }
 
+    .rectangle {
+        width: 350px;
+        right: 50px;
+    }
+
+    #img-01 {
+        width: 180px;
+        top: -80px;
+        left: -50px;
+    }
+
+    #img-02 {
+        width: 130px;
+        top: -50px;
+        right: -50px;
+    }
+
+    .introduction-section {
+        padding: 0 1.5rem;
+    }
+}
+
+@media screen and (max-width: 929px) {
+    .star-1 {
+        width: 180px;
+        top: 400px;
+    }
+
+    .star-2 {
+        width: 100px;
+        top: 120px;
+        right: 50px;
+    }
+
+    .rectangle {
+        width: 250px;
+    }
+
+    #img-01 {
+        width: 100px;
+        top: -30px;
+        left: 0px;
+    }
+
+    #img-02 {
+        width: 100px;
+        top: -50px;
+        right: 5px;
+    }
+
+    .hero-header-container {
+        min-width: 370px;
+    }
+}
+
+@media screen and (max-width: 639px) {
+    .star-1 {
+        width: 100px;
+        top: 450px;
+        left: 3rem;
+    }
+
+    .star-2 {
+        width: 80px;
+        top: 150px;
+        right: 30px;
+    }
+
+    .rectangle {
+        width: 200px;
+        top: 170px;
+        right: 20px;
+    }
+
+    #img-01 {
+        width: 80px;
+        top: -30px;
+        left: 0px;
+    }
+
+    #img-02 {
+        width: 80px;
+        top: -40px;
+        right: -20px;
+    }
+}
